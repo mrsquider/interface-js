@@ -251,6 +251,11 @@ function showPostFormClassic(hide){
 			["table",{
 				class:"postForm"
 			},
+         ["input",{
+          name:"thread",
+          value:threadId,
+          type:"hidden"
+        }],
 				["tbody",
 				["tr",
 					["td","Name"],
